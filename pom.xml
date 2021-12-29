@@ -106,20 +106,4 @@
     </plugins>
   </build>
 
-  <scm>
-    <developerConnection>scm:git:http://${env.GIT_USERNAME}:${env.GIT_PASSWORD}@kube1:3000/anydoby/binance-java-api.git</developerConnection>
-    <tag>binance-api-client-3.1.1</tag>
-  </scm>
-
-  <distributionManagement>
-    <repository>
-      <id>kube-releases</id>
-      <url>http://kube1:9090/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>kube-snapshots</id>
-      <url>http://kube1:9090/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
-
 </project>
